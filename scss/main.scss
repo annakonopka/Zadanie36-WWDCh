@@ -1,0 +1,14 @@
+@import "partials/grid";
+@import "modules/fonts";
+@import "modules/colors";
+@import "modules/sizes";
+@import "partials/header";
+@import "partials/slider";
+@import "partials/body";
+@import "ionicons/ionicons";
+
+body {
+    background-color: $body-color;
+    background-image: url(../images/2.png);
+    background-repeat: no-repeat;
+}

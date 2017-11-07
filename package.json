@@ -1,0 +1,31 @@
+{
+  "name": "wwdch36",
+  "version": "1.0.0",
+  "description": "My first approach to pixel-perfect and responsive website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Skanapka",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "6.22.0",
+    "webpack": "^2.5.1",
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "jshint": "^2.9.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Skanapka@bitbucket.org/Skanapka/wwdch_36.git"
+  },
+  "keywords": [
+    "pixel-perfect",
+    "first_time"
+  ],
+  "homepage": "https://bitbucket.org/Skanapka/wwdch_36#readme"
+}

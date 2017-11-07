@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'maison_neue_trialmedium';
+    src: url('../fonts/maisonneuetrial-medium-webfont.woff2') format('woff2'),
+         url('../fonts/maisonneuetrial-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'maison_neue_mono_trialregular';
+    src: url('../fonts/maisonneuemonotrial-regular-webfont.woff2') format('woff2'),
+         url('../fonts/maisonneuemonotrial-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'miller_displayitalic';
+    src: url('../fonts/miller_display_italic-webfont.woff2') format('woff2'),
+         url('../fonts/miller_display_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+$header-font: 'maison_neue_trialmedium';
+$slider-font: 'maison_neue_trialmedium';
+$slider-p-span-font: 'miller_displayitalic';
+$categories-widget-h2-font: 'maison_neue_trialmedium';
+$categories-widget-li-a-font: 'maison_neue_trialmedium';
+$categories-widget-li-a-span-font: 'maison_neue_mono_trialregular';
+$filetr-widget-h2-font: 'maison_neue_trialmedium';
+$filetr-widget-h3-font: 'maison_neue_trialmedium';
+$price-form-input-font: 'maison_neue_mono_trialregular';
+$price-form-button-font: 'maison_neue_trialmedium';
+$color-widget-h3-font: 'maison_neue_trialmedium';
+$size-widget-h3-font: 'maison_neue_trialmedium';
+$size-widget-li-a-font: 'maison_neue_trialmedium';
+$size-widget-li-a-span-font: 'maison_neue_mono_trialregular';
+$brands-widget-li-a-font: 'maison_neue_trialmedium';
+$brands-widget-li-a-span-font: 'maison_neue_mono_trialregular';
+$tags-widget-h3-font: 'maison_neue_trialmedium';
+$tags-widget-p-font: 'maison_neue_trialmedium';
+$pagination-li-a-font: 'maison_neue_mono_trialregular';
+$discount-form-h1-font: 'miller_displayitalic';
+$discount-form-email-input-font: 'maison_neue_trialmedium';
+$discount-form-sending-button-font: 'maison_neue_trialmedium';
+$footer-p-font: 'maison_neue_trialmedium';
+$footer-menu-li-a-font: 'maison_neue_trialmedium';
+$sort-widget-h2-font: 'maison_neue_trialmedium';
+$sort-widget-p-font: 'maison_neue_trialmedium';
+$items-itm-span-left-font: 'maison_neue_trialmedium';
+$items-itm-h3-name-font: 'maison_neue_trialmedium';
+$items-itm-p-price-font: 'maison_neue_mono_trialregular';

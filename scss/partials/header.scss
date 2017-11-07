@@ -1,0 +1,63 @@
+header {
+    display: flex;
+    justify-content: space-between;
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: inline;
+            li {
+                display: inline;
+                &:first-child a {
+                    padding-right: $nav-padding;
+                    padding-left: 0;
+                }
+                &:last-child a {
+                    padding-right: 0;
+                    padding-left: $nav-padding;
+                }
+
+                a {
+                    display: inline;
+                    width: 60px;
+                    text-decoration: none;
+                    font-family: $header-font;
+                    letter-spacing: $nav-letter-spacing;
+                    text-transform: uppercase;
+                    color: $nav-color;
+                    font-size: $nav-font-size;
+                    padding-right: $nav-padding;
+                    padding-left: $nav-padding;
+                    line-height: 26px;
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
+
+
+.shop {
+ color: $shop-color;
+}
+
+.ion-bag {
+    font-size: $ion-bag-font-size;
+    letter-spacing: $ion-bag-letter-spacing;
+    color: $shop-color;
+}
+
+.logo {
+    font-family: 'MyriadPro-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: $logo-font-size;
+    letter-spacing: $logo-letter-spacing;
+    letter-spacing: -25px;
+    color: $logo-color;
+    display: inline;
+    text-transform: uppercase;
+    padding: 0;
+    line-height: 26px;
+    vertical-align: middle;
+    margin: 0;
+}

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sass - Zadania</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="grid">
+        <div class="row">
+            <div class="col-12">
+                <header>
+                    <p class="logo">&#9651;&#9651;</p>
+                    <nav>
+                        <ul>
+                            <li><a href="#">home</a></li>
+                            <li><a href="#" class="shop">shop</a></li>
+                            <li><a href="#">journal</a></li>
+                            <li><a href="#">elements</a></li>
+                            <li><a href="#">pages</a></li>
+                            <li><a href="#"><i class="ion-bag"></i></a></li>
+                        </ul>
+                    </nav>
+                </header>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1 slider flex1">
+                <a href="#"><i class="ion-ios-arrow-left"></i></a>
+            </div>
+            <div class="col-5 slider">
+
+            </div>
+            <div class="col-5 slider flex3">
+                <div>
+                    <h1>Sky Planet</h1>
+                    <a href="#"><h2>Shop now</h2></a>
+                </div>
+            </div>
+            <div class="col-1 slider flex2">
+                <a href="#"><i class="ion-ios-arrow-right"></i></a>
+                <p class="sites-meter"><span id="actual-site">1 </span><span class="of"> of </span><span class="sites"> 3</span></p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-3 left-sidebar">
+                <div class="categories-widget">
+                    <h2>Categories</h2>
+                    <ul>
+                        <li><a href="#">All products<span>27</span></a></li>
+                        <li><a href="#">Living<span>14</span></a></li>
+                        <li><a href="#">Dining<span>03</span></a></li>
+                        <li><a href="#">Furniture<span>07</span></a></li>
+                        <li><a href="#">Lighting<span>12</span></a></li>
+                        <li><a href="#">Technics<span>10</span></a></li>
+                        <li><a href="#">Accessories<span>21</span></a></li>
+                    </ul>
+                    <hr>
+                </div>
+                <div class="filter-widget">
+                    <h2>Filter by</h2>
+                    <h3>Price</h3>
+                    <div class="price-slider">
+                        <input type="text" class="range-slider" value="musze dopisac css-a i js-a" />
+                    </div>
+                    <form class="price-form">
+                        <input class="lowest-price" type="number" name="lowest-price" value="30" />
+                        <input class="heighest-price" type="number" name="highest-price" value="190" />
+                        <button class="price-form-button" type="button" name="standard-button">Filter</button>
+                    </form>
+                </div>
+                <div class="color-widget">
+                    <h3>Color</h3>
+                    <div class="circles">
+                        <div class="color-selection first">
+
+                        </div>
+                        <div class="color-selection second">
+                            <i class="ion-checkmark"></i>
+                        </div>
+                        <div class="color-selection third">
+
+                        </div>
+                        <div class="color-selection fourth">
+
+                        </div>
+                        <div class="color-selection fifth">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="size-widget">
+                    <h3>Size</h3>
+                    <ul class="sizes-list">
+                        <li><a href="#">Small<span class="uppercase">07</span></a></li>
+                        <li><a href="#">Medium<span class="uppercase">12</span></a></li>
+                        <li><a href="#">Large<span class="uppercase">18</span></a></li>
+                    </ul>
+                </div>
+                <div class="brands-widget">
+                    <h3>Brands</h3>
+                    <ul class="brands-list">
+                        <li><a href="#">Banshu Hamono<span class="uppercase">02</span></a></li>
+                        <li><a href="#">Bower<span class="uppercase">07</span></a></li>
+                        <li><a href="#">Braun<span class="uppercase">10</span></a></li>
+                        <li><a href="#">Elevenplus<span class="uppercase">09</span></a></li>
+                        <li><a href="#">Field<span class="uppercase">01</span></a></li>
+                        <li><a href="#">Henry Wilson<span class="uppercase">11</span></a></li>
+                        <li><a href="#">Menu<span class="uppercase">17</span></a></li>
+                    </ul>
+                </div>
+                <hr>
+
+                <div class="tags-widget">
+                    <h3>Popular Tags</h3>
+                    <p class="tags"><a href="#">Simple</a>, <a href="#">Minimalism</a>, <a href="#">Furniture</a>, </p>
+                    <p class="tags"><a href="#">White</a>, <a href="#">Black</a>, <a href="#">Accessories</a></p>
+                </div>
+            </div>
+            <div class="col-9 items">
+                <div class="row">
+                    <div class="col-6 sort-widget">
+                        <h2>Sort by: A-Z <i class="ion-arrow-down-b"></i></h2>
+                    </div>
+                    <div class="col-6 sort-widget">
+                        <p id="current-results">Showing 1—12 of 24 results</p>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="itm">
+                        <span class="left">New</span>
+                        <img src="images/1st_itm.png" alt="Bottle Humidifier">
+                        <h3 class="name">Bottle Humidifier</h3>
+                        <p class="price">$69.00</p>
+                    </div>
+
+                    <div class="itm">
+                        <span class="right"><i class="ion-ios-heart-outline"></i></span>
+                        <img src="images/2nd_itm.png" alt="Flower Scissors">
+                        <h3 class="name">Flower Scissors</h3>
+                        <p class="price">$159.00</p>
+                    </div>
+
+                </div>
+                <div class="row">
+
+                    <div class="itm">
+                        <img src="images/3rd_itm.png" alt="Grey Watch">
+                        <h3 class="name">Grey Watch</h3>
+                        <p class="price">$215.00</p>
+                    </div>
+
+                    <div class="itm">
+                        <img src="images/4th_itm.png" alt="Sweeper and Funnel">
+                        <h3 class="name">Sweeper and Funnel</h3>
+                        <p class="price">$59.00</p>
+                    </div>
+
+                </div>
+                <div class="row">
+
+                    <div class="itm">
+                        <img src="images/5th_itm.png" alt="White Bulb">
+                        <h3 class="name">White Bulb</h3>
+                        <p class="price">$349.00</p>
+                    </div>
+
+
+                    <div class="itm">
+                        <img src="images/6th_itm.png" alt="Teapot">
+                        <h3 class="name">Teapot</h3>
+                        <p class="price">$55.00</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-12 pagination">
+                <ul>
+                    <li><a href="#">01</a></li>
+                    <li><a href="#">02</a></li>
+                    <li><a href="#">03</a></li>
+                    <li><a href="#">04</a></li>
+                    <li><a href="#">05</a></li>
+                    <li><a href="#"><i class="ion-ios-arrow-thin-right"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <footer>
+            <div class="row">
+                <div class="col-12 discount-form">
+                    <h1>Get Discount 35% off</h1>
+                    <input type="email" name="email" value="Enter your email..." class="email-input">
+                    <!----><button type="button" name="standard-button" class="sending-button">Send</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 footer">
+                    <p>© 2017 Maison. All rights reserved</p>
+                </div>
+                <!--
+                -->
+                <div class="col-6 footer-menu">
+                    <nav>
+                        <ul>
+                            <li><a href="#" class="shop">Shop</a></li>
+                            <li><a href="#">Journal</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>

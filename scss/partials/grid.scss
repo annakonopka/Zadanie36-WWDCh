@@ -1,0 +1,65 @@
+$cols: 12;
+$width-base: (100% / $cols); //szerokość bazowa
+
+@mixin centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+%flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid {
+    // kontener
+    width: 100%;
+    max-width: 1170px; //lub 1200px;
+    @include centered;
+    // border: 1px solid pink;
+}
+
+.row {
+    @extend %flex;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+[class*='col-'] {
+    min-height: 1px; // określenie wysokości minimalnej
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+@media (min-width: 20rem) {
+     @for $i from 1 through $cols{
+        .col-#{$i} {
+            width: $width-base*$i;
+        }
+    }
+}
+
+.top {
+    background-color: darkviolet;
+}
+
+.bottom, .px, .rem, {
+    background-color: lightblue;
+}
+
+.em {
+    background-color: yellow;
+}
+
+.flexible {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    background-color: lightblue;
+    padding: 0;
+}
